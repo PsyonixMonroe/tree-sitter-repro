@@ -1,0 +1,4 @@
+FunctionName(): int =
+# <- function.name
+    return 1
+#    ^ keyword

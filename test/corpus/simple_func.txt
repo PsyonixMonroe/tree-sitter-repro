@@ -1,0 +1,18 @@
+==================
+simple function definition 
+==================
+FunctionName(): int =
+    return 1
+    # this is a comment
+
+---
+
+(source_file
+  (function_definition
+    name: (identifier)
+    (parameters)
+    return: (type)
+    (return_statement)
+    (comment)))
+
+

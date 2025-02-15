@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "repro",
+      "camelcase": "Repro",
+      "title": "Repro",
+      "scope": "source.repro",
+      "file-types": [
+        "repro"
+      ],
+      "highlights": "queries/highlights.scm",
+      "injection-regex": "^repro$",
+      "class-name": "TreeSitterRepro"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Reproducing a bug in another Parser",
+    "authors": [
+      {
+        "name": "Matt Monroe",
+        "email": "matt.a.monroe@gmail.com",
+        "url": "https://www.linkedin.com/in/mattamonroe/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/PsyonixMonroe/tree-sitter-repro"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
